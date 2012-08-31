@@ -42,12 +42,12 @@
 
 #clock {
     float:left;
-    /*margin-left:48px;*/
+    margin:20px 0 0 24px;
 }
 
 #hours, #minutes {
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     float:left;
     position:relative;
 }
@@ -70,7 +70,7 @@
     height:100%;
     position:absolute;
     top:0;
-    left:20px;
+    left:8px;
     z-index:100;
 }
 
@@ -79,17 +79,17 @@
     height:100%;
     position:absolute;
     top:0;
-    left:100px;
+    left:48px;
     z-index:100;
 }
 
 .line {
-    width:175px;
+    width:87px;
     height:2px;
     background:#efefef;
     position:absolute;
-    top:97px;
-    left:12px;
+    top:49px;
+    left:7px;
     z-index:101;
     font-size:1px;
 }
@@ -105,7 +105,7 @@
     width:100%;
     height:103px;
     position:absolute;
-    top:70px;
+    top:80px;
     left:0;
     z-index:105;
     color:#fff;
@@ -113,16 +113,17 @@
 
 #weather #local, #weather .loading {
     float:left;
-    margin:65px 0 0 45px;
+    margin:43px 0 0 29px;
+    font-size:9pt;
 }
 
 .city {
     font-weight:bold;
-    font-size:12pt;
+    font-size:9pt;
 }
 
 .temp {
-    font-size:30pt;
+    font-size:17pt;
     padding:0;
 }
 
@@ -132,12 +133,12 @@
 
 #weather #temp {
     float:right;
-    margin:65px 45px 0 0;
+    margin:43px 29px 0 0;
     text-align:right;
 }
 
 #weather #date {
-    font-size:11pt;
+    font-size:9pt;
     padding-right:2px;
 }
 

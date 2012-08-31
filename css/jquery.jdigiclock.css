@@ -1,8 +1,7 @@
 #plugin_container {
-    width:250px;
-    height:185px;
+    width:240px;
+    height:175px;
     position:relative;
-    /*background:url(../images/htc_hero_wallpaper_02.jpg);*/
     overflow:hidden;
     font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
     color:#fff;
@@ -14,25 +13,10 @@
     padding:0;
 }
 
-/*#left_arrow, #right_arrow {
-    position:absolute;
-    top:200px;
-    z-index:200;
-    cursor:pointer;
-}
-
-#left_arrow {
-    left:5px;
-}
-
-#right_arrow {
-    right:5px;
-}*/
-
 #digital_container {
-    width:250px;
-    height:185px;
-    background:url(../images/background.png) 50% 40px no-repeat;
+    width:240px;
+    height:175px;
+    background:url(../images/background.png) 50% 25px no-repeat;
     position:absolute;
     top:0;
     left:0;
@@ -42,7 +26,7 @@
 
 #clock {
     float:left;
-    margin:20px 0 0 24px;
+    margin:5px 0 0 18px;
 }
 
 #hours, #minutes {
@@ -113,7 +97,7 @@
 
 #weather #local, #weather .loading {
     float:left;
-    margin:43px 0 0 29px;
+    margin:30px 0 0 20px;
     font-size:9pt;
 }
 
@@ -123,7 +107,7 @@
 }
 
 .temp {
-    font-size:17pt;
+    font-size:18pt;
     padding:0;
 }
 
@@ -133,7 +117,7 @@
 
 #weather #temp {
     float:right;
-    margin:43px 29px 0 0;
+    margin:30px 20px 0 0;
     text-align:right;
 }
 
